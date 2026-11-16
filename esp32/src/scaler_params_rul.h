@@ -1,0 +1,10 @@
+// Auto-generated scaler for RUL
+#ifndef SCALER_PARAMS_RUL_H
+#define SCALER_PARAMS_RUL_H
+#define INPUT_SIZE_RUL 7
+static const float FEATURE_MEAN_RUL[INPUT_SIZE_RUL] = {4581.27397104f, 1239.78466871f, 3.90817638f, 3.57790394f, 3768.33617748f, 5461.26696387f, 10066.49619286f};
+static const float FEATURE_STD_RUL[INPUT_SIZE_RUL] = {33142.91219702f, 15039.09006280f, 0.09100036f, 0.12369068f, 9129.24948001f, 25155.01036330f, 26414.47746594f};
+inline float normalize_feature_rul(float raw, int idx) {
+    return (raw - FEATURE_MEAN_RUL[idx]) / FEATURE_STD_RUL[idx];
+}
+#endif

@@ -1,0 +1,89 @@
+{
+  "mlp": {
+    "fp32_kb": 9.6171875,
+    "int8_kb": 5.8671875,
+    "esp32_ok": true,
+    "fp32_info": {
+      "input": {
+        "shape": [
+          1,
+          42
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      },
+      "output": {
+        "shape": [
+          1
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      }
+    },
+    "int8_info": {
+      "input": {
+        "shape": [
+          1,
+          42
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      },
+      "output": {
+        "shape": [
+          1
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      }
+    }
+  },
+  "cnn1d": {
+    "fp32_kb": 12.1328125,
+    "int8_kb": 8.2421875,
+    "esp32_ok": true,
+    "fp32_info": {
+      "input": {
+        "shape": [
+          1,
+          42
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      },
+      "output": {
+        "shape": [
+          1
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      }
+    },
+    "int8_info": {
+      "input": {
+        "shape": [
+          1,
+          42
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      },
+      "output": {
+        "shape": [
+          1
+        ],
+        "dtype": "<class 'numpy.float32'>",
+        "scale": 0.0,
+        "zero_point": 0
+      }
+    }
+  },
+  "selected_for_esp32": "cnn1d"
+}
